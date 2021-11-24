@@ -1,0 +1,114 @@
+body{
+    text-align: center;
+}
+
+
+h2{
+    text-decoration: underline;
+}
+
+
+.formBody{
+    text-align: left;
+    padding: 0 0 0 35rem;
+}
+
+.nameBox, .emailBox, .mobileBox, .countryBox {
+padding: 0 0 0.8rem 0;
+}
+
+
+#country{
+    width: 250px;
+    height: 30px;
+    
+}
+
+
+#nameInput{
+    width: 240px;
+    height: 23.5px;
+}
+
+#error{
+   
+    color: red;
+}
+
+#emailInput{
+    width: 240px;
+    height: 23.5px;
+}
+
+
+#mobileInput{
+    width: 240px;
+    height: 23.5px;
+}
+
+#error1, #error2{
+    color: red;
+}
+
+.genderBox{
+    outline-style: inset;
+    outline-width: 0.5px;
+    outline-color: rgb(117, 116, 116);
+    width: 232px;
+    height: 28.5px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-left: 16.5px;
+    padding-right: 0;
+}
+
+#error4{
+    margin-bottom: 20px;
+    position: absolute;
+    top: 413px;
+    bottom: 200px;
+    color: red;
+}
+
+
+
+
+.hobbyBox{
+    outline-style: inset;
+    outline-width: 0.5px;
+    outline-color: rgb(117, 116, 116);
+    width: 250px;
+    height: 28.5px;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+#hobbyLabel{
+position: absolute;
+}
+
+h5{
+    margin: 0;
+    text-align: right;
+    width: 20px;
+    padding-left: 55px;
+}
+em{
+    color: gray;
+}
+
+
+
+.button{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    margin-top: 20px;
+    width: 252px;
+    height: 42px;
+}
